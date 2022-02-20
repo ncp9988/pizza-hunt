@@ -1,5 +1,5 @@
 const res = require('express/lib/response');
-const { Pizaa } = require('../models');
+// const { Pizaa } = require('../models');
 const Pizza = require('../models/Pizza');
 
 const pizzaController = {
