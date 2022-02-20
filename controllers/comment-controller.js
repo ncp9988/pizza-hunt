@@ -3,7 +3,7 @@ const { findOneAndDelete } = require('../models/Comment');
 
 const commentController = {
     // add comment to pizza
-    aaddComment({ params, body }, res) {
+    addComment({ params, body }, res) {
         console.log(body);
         Comment.create(body)
           .then(({ _id }) => {
