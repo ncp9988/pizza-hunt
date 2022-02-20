@@ -21,4 +21,4 @@ router
   .put(updatePizza)
   .delete(deletePizza);
 
-module.export = router
+module.exports = router
